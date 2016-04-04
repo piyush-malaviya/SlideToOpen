@@ -6,7 +6,27 @@ Slide to open custom android view library
 ![alt tag](https://github.com/piyush-malaviya/SlideToOpen/blob/master/screenshot/slide_to_open_1.png)
 ![alt tag](https://github.com/piyush-malaviya/SlideToOpen/blob/master/screenshot/slide_to_open_2.png)
 
-<H2>In Xml Layout</H2>
+##Setup
+
+###1. Add Library
+####Gradle
+```
+repositories {
+    maven {
+        ...
+        url 'https://dl.bintray.com/piyush/maven'
+    }
+}
+
+dependencies {
+    compile 'com.pcm:slidetoopen:1.0.0'
+}
+
+
+```
+
+
+###2. Add view in xml layout
 
 ```
 <com.pcm.slidetoopen.SlideToOpen
@@ -25,7 +45,7 @@ Slide to open custom android view library
     app:thumbColor="@color/colorAccent" />
 ```
 
-<h2> In Activity/Fragment</h2>
+###3. Setup SlideToOpen in Class file
 ```
 SlideToOpen slideToOpen = (SlideToOpen) findViewById(R.id.slideToOpen);
 slideToOpen.setOnSliderStatusChange(new OnSliderStatusChange() {
