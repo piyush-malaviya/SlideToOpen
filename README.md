@@ -3,8 +3,8 @@ Slide to open custom android view library
 
 <b>Images</b>
 
-![alt tag](https://github.com/piyush-malaviya/SlideToOpen/blob/master/screenshot/slide_to_open_1.png)
-![alt tag](https://github.com/piyush-malaviya/SlideToOpen/blob/master/screenshot/slide_to_open_2.png)
+![alt tag](https://github.com/piyush-malaviya/SlideToOpen/blob/master/screenshot/slide_to_open_one.png)
+![alt tag](https://github.com/piyush-malaviya/SlideToOpen/blob/master/screenshot/slide_to_open_two.png)
 
 ##Setup
 
