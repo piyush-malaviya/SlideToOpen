@@ -11,18 +11,9 @@ Slide to open custom android view library
 ###1. Add Library
 ####Gradle
 ```
-repositories {
-    maven {
-        ...
-        url 'https://dl.bintray.com/piyush/maven'
-    }
-}
-
 dependencies {
     compile 'com.pcm:slidetoopen:1.0.0'
 }
-
-
 ```
 
 
